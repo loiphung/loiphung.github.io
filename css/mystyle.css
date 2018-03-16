@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(https://i.pinimg.com/originals/cd/71/37/cd71375c7bc653b29dcf75a3c3b3d083.png);
+	overflow-x: hidden;
+}
+
+#container {
+	width: 80vw;
+	margin: 0 auto;
+	background-color: #f2e5d5;
+}
+
+ul {
+	background-color: #a6936f;
+	width: 100%;
+	height: 60px;
+}
+
+ul li {
+	float: left;
+	padding-left: 60px;
+	list-style-type: none;
+	line-height: 60px;
+}
+ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+ul li a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+h1 {
+		font-family: 'Annie Use Your Telescope', cursive;
+		text-align: center;
+		border: 4px dashed #f2e5d5;
+		width: 400px;
+		padding: 30px;
+		margin: 20px auto;
+}
+	h3 {
+	color:blue;
+	font-style: italic;
+}
+
+#sketch{
+	width: 100%;
+	height: 50vh;
+	border: none;
+}
+
+div {
+	background-color: #edf25c;
+	width: 100%;
+	height: 1150px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div img {
+	width: 400px;
+}
+
+.colorpurple {
+	color:purple;
+	background-color: #edf25c;
+}
