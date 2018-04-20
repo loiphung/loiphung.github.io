@@ -1,0 +1,32 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ #center {
+ 	padding-left: 250px;
+ 	margin: 0 auto;
+ }
+ /*#return {
+ 	padding-left: 670px;
+ }*/
+ .imagecenter {
+ 	display: block;
+    margin: auto;
+ }
+ p {
+ 	
+ 	font-size: 24px;
+ 	width: 400px;
+ 	overflow: hidden;
+ 	padding-left: 600px;
+ 	padding-bottom: 50px;
+ }
+
+ #fake {
+ 	margin: 0 auto;
+ 	color: red;
+ 	padding-left: 600px;
+ }
