@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
-
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script:700');
+@import url('https://fonts.googleapis.com/css?family=Overlock:700i');
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	/*background-image: url(https://i.pinimg.com/originals/cd/71/37/cd71375c7bc653b29dcf75a3c3b3d083.png);*/
 	overflow-x: hidden;
 }
 
 #container {
-	width: 80vw;
+	width: 90vw;
 	margin: 0 auto;
-	background-color: #f2e5d5;
 }
 
 ul {
-	background-color: #a6936f;
+	background-color: #8197db;
 	width: 100%;
 	height: 60px;
+	opacity: .6;
 }
 
 ul li {
@@ -27,6 +26,8 @@ ul li {
 	padding-left: 60px;
 	list-style-type: none;
 	line-height: 60px;
+	font-family: 'Oleo Script', cursive;
+	font-size: 27px;
 }
 ul li a {
 	text-decoration: none;
@@ -39,25 +40,25 @@ ul li a:hover {
 }
 
 h1 {
-		font-family: 'Annie Use Your Telescope', cursive;
+	font-family: 'Oleo Script', cursive;
 		text-align: center;
-		border: 4px dashed #f2e5d5;
+		border: none;
 		width: 400px;
 		padding: 30px;
-		margin: 20px auto;
-		color: green;
+		margin: 22px auto;
+		
 }
 
-}
 
 p {
-	
-	padding-right: 250px;
-	padding-left: 250px
+	font-size: 31px;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 190px;
+	padding-right: 230px;
 }
 
 div {
-	background-color: #edf25c;
 	width: 100%;
 	height: 1150px;
 	text-align: center;
@@ -79,4 +80,18 @@ div img {
 #youtube{
 	margin: 0 auto;
 	text-align: center;
+}
+#quote{
+	font-family: 'Overlock', cursive;
+	font-size: 36px;
+	color: #3b7c82;
+}
+#portrait{
+	margin: 0 auto;
+	text-align: center;
+}
+#ball{
+margin: 0 auto;
+padding-top: 30px;
+text-align: center;
 }
